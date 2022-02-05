@@ -1,0 +1,42 @@
+/*
+Name: your name
+COurse: CIS 201
+Section: your section
+Assignment:
+*/
+Computer Science I
+import java.util.*;
+public class Birthday f
+public static void main (String[] args){
+Scanner Sc = new Scanner (System.in);
+char answerChar;
+dof
+//get the probability that two people share the same birthday
+//from the user of this program
+double inputProbability = getInputProbability();
+//get the number of people needed so that the probability
+//of at least two of them having the same birthday
+//is greater than or equal to the inputProbability
+double [] results = calculatePersons (inputProbability);
+//report results
+report (inputProbability, results):
+//see we user wants to run this again for another probability
+System.out.print ("\Run again (yes/no):
+"):
+String answer = sc.next (). toLowerCase();
+} while (answerchar
+answerChar = answer.charAt (0) ;
+"y'):
+//Gets the input probability and checks that it is valid
+public static double getInputProbability(){
+Scanner input = new Scanner (System.in):
+double inputprob;
+dof
+System.out.print("\nEnter a probability
+- at least two people " +
+"share the same birthday:
+"):
+inputProb = input.nextDouble() ;
+} while (inputProb <= 0 || inputProb >= 1.0) ;
+return inputProb;
+7
